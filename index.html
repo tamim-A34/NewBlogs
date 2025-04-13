@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Webjet Limited</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hover-effect:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .justify-paragraph {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-8 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Welcome to My Blog!</h1>
+            <p class="text-xl">Hi, I'm Tamim, and this is my blog for ACCT11059.</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-center space-x-4">
+            <a href="#about-me" class="text-blue-600 hover:text-blue-800 font-medium">About Me</a>
+            <a href="#company-background" class="text-blue-600 hover:text-blue-800 font-medium">Company Background</a>
+            <a href="#opportunities-challenges" class="text-blue-600 hover:text-blue-800 font-medium">Opportunities & Challenges</a>
+            <a href="#contact" class="text-blue-600 hover:text-blue-800 font-medium">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-10">
+
+        <!-- About Me Section -->
+        <section id="about-me" class="mb-12">
+            <h2 class="text-4xl font-semibold text-center mb-6">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="w-full flex justify-center">
+                    <img src="WhatsApp Image 2025-04-13 at 16.22.38_3489dca6.jpg" alt="Your Profile Picture"
+                        class="w-48 h-48 rounded-full object-cover hover-effect shadow-md">
+                </div>
+                <div>
+                    <p class="text-lg text-gray-700 justify-paragraph">
+                        Hey there! I'm Tamim — just a simple guy with big dreams, a curious mind, and a passion for learning and exploring.
+                        Currently, I'm pursuing my studies at CQ University in Melbourne, majoring in Human Resource Management under the Business program.
+                        It’s the beginning of a new chapter for me, and I’m excited to share my journey with you.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Background Section -->
+        <section id="company-background" class="mb-12">
+            <h2 class="text-4xl font-semibold text-center mb-6">About Webjet Limited</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-lg text-gray-700 justify-paragraph">
+                        Webjet Limited is a global travel business that has carved a niche for itself in both the B2B and B2C segments of the travel industry.
+                        Established in 1998, Webjet has grown into a market leader, offering innovative solutions for travelers and businesses alike.
+                        The company operates through two primary divisions: WebBeds and Webjet OTA — the #1 online travel agency in Australia and New Zealand.
+
+                        In FY22, Webjet demonstrated resilience and adaptability in the face of ongoing challenges caused by the pandemic.
+                        The company saw strong recovery, particularly in the second half of the fiscal year. These achievements are a testament
+                        to Webjet’s strategic focus on operational efficiency and customer-centric innovation.
+
+                        Webjet’s commitment to advanced technology, sustainability, and employee well-being highlights its leadership in the travel industry.
+                        With markets recovering, Webjet is positioned to grow while managing challenges like staff shortages and changing travel regulations.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="Webjet-Ltd-1-copy.jpg" alt="Webjet Logo" class="rounded-lg shadow-lg hover-effect max-w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Opportunities and Challenges Section -->
+        <section id="opportunities-challenges" class="mb-12">
+            <h2 class="text-4xl font-semibold text-center mb-6">Opportunities and Challenges</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-lg text-gray-700 justify-paragraph">
+                        As with any business operating in a dynamic industry, Webjet Limited faces both opportunities and challenges.
+
+                        A major opportunity lies in the global reopening of travel. With eased border restrictions, WebBeds has seen a spike in demand,
+                        and Webjet OTA continues to dominate the Australia–New Zealand market with strong pricing and a user-friendly platform.
+
+                        On the flip side, the company must navigate post-pandemic issues such as staff shortages, supply chain disruptions,
+                        and evolving customer expectations for flexible travel arrangements. Webjet is responding with technology investments and
+                        strategic efficiency improvements to stay competitive in a tough industry.
+
+                        Overall, Webjet’s resilience, innovation, and forward-looking strategy put it in a strong position for long-term success.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://surl.li/cmvjvn" alt="Travel Industry"
+                        class="rounded-lg shadow-lg hover-effect max-w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12">
+            <h2 class="text-4xl font-semibold text-center mb-6">Contact Me</h2>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                        <input type="text" id="name" name="name"
+                            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Your Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                            placeholder="Enter your email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                            placeholder="Type your message here..."></textarea>
+                    </div>
+                    <button type="submit"
+                        class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300 w-full">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
